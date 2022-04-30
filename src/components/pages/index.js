@@ -9,14 +9,15 @@ import OverView from './OverView'
 import AboutUs from './AboutUs'
 import Services from './Services'
 import Blog from './Blog'
+import Savings from '../layouts/general/services/Savings'
 import BlogGrid from './BlogGrid'
-import RiskManagement from './RiskManagement'
 import Portfolio from './Portfolio'
 import Portfolio2 from './Portfolio2'
 import Portfolio3 from './Portfolio3'
 import Contact01 from './Contact01'
 import Contact02 from './Contact02'
 import BlogSingle from './BlogSingle'
+import LoanProducts from '../layouts/general/services/LoanProducts'
 
 const routes = [
     { path: '/', component: Home01},
@@ -28,17 +29,18 @@ const routes = [
     { path: '/about-v1', component: AboutUs},
     { path: '/about-v2', component: TeamGrid},
     { path: '/about-v3', component: OverView},
-    { path: '/services-v1', component: Services},
-    { path: '/services-v2', component: RiskManagement},
+    { path: '/services-others', component: Services},
+    { path: '/services-loans', component: LoanProducts},
+    { path: '/services-savings', component: Savings},
     { path: '/portfolio-v3', component: Portfolio},
     { path: '/portfolio-v2', component: Portfolio2},
     { path: '/portfolio-v1', component: Portfolio3},
     { path: '/blog', component: Blog},
+    { path: '/savings', component:Savings},
     { path: '/blog-grid', component: BlogGrid},
     { path: '/contact-v1', component: Contact01},
     { path: '/contact-v2', component: Contact02},
     { path: '/blog-single', component: BlogSingle},
-    
 ]
 
 export default routes;

@@ -8,7 +8,7 @@ class TopFooter extends Component {
                 <ul className="infomation-footer">
                     <li><i className="fa fa-envelope" aria-hidden="true"></i><Link to="#" title="">cranestarm.co.ug@gmail.com</Link></li>
                     <li><i className="fa fa-phone" aria-hidden="true"></i><Link to="#" title="">+256 39 3224668</Link></li>
-                    <li><i className="fa fa-map-marker" aria-hidden="true"></i><Link to="#" title="">P.O Box 84, Kampala. Banda along wakalimira Lane, zig zag club</Link></li>
+                    <li><i className="fa fa-map-marker" aria-hidden="true"></i><Link to="#" title="">P.O Box 84, K'la. Banda, wakalimira Lane, zigzag club </Link></li>
                 </ul>
                 {/* <!-- /.infomation-footer --> */}
             </div>

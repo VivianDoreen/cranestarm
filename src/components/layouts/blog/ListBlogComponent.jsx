@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import datablog from './dataBlog'
 
 class ListBlogComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            pagination: [
+            datablog: [
                 {
                     id: 1,
-                    numb: '1',
-                    class: 'active'
+                    srcimg: 'images/blog/blog-post-01.jpeg',
+                    title: 'WHY SHOULD YOU SAVE MONEY?',
+                    time: '',
+                    author: 'admin',
+                    category: 'Business',
+                    comments: 'No comment',
+                    description: 'The importance of saving money is simple: It allows you to enjoy greater security in your life. If you have cash set aside for emergencies, you have a fallback should something unexpected happen. And, if you have savings set aside for discretionary expenses, you may be able to take risks or try new things. Pretty good reasons to save money, right?'
+                }
+            ],
+               list: [
+                {
+                    id: 1,
+                    text: 'Customer experience, which includes the impression the homepage and overall design style give the customers their satisfaction when they interact with the site and perform tasks.'
+
                 },
                 {
                     id: 2,
-                    numb: '2',
+                    text: 'Service-level, which looks at responsiveness and reliability of websites – scores them on how quickly they respond to user commands and such factors as average downtime.'
                 },
                 {
                     id: 3,
-                    numb: '>',
+                    text: 'Best practices, such as ease of use, quality, availability and security – site managers must be compliant with data laws requiring them to protect customer information and the integrity of customer accounts.'
                 }
-            ],
+            ]
             
         }
     }
@@ -29,12 +40,11 @@ class ListBlogComponent extends Component {
             <div className="col-md-8">
 						<div className="post-wrap">
                             {
-                                datablog.map(data =>(
+                                this.state.datablog.map(data =>(
                                     <article className="main-post" key={data.id} >
                                         <div className="entry-post-title">
-                                            <h2 className="post-title"><Link to="blog-single" onClick={() => {window.location.href="/blog-single"}} title="">{data.title}</Link></h2>
+                                            <h2 style={{color:'#000000'}} className="post-title">{data.title}</h2>
                                             <ul className="entry-meta">
-                                                <li className="date"><Link to="#" title="">{data.time}</Link></li>
                                                 <li className="author"><Link to="#" title="">{data.author}</Link></li>
                                                 <li className="categories"><Link to="#" title="">{data.category}</Link></li>
                                                 <li className="comment"><Link to="#" title="">{data.comments}</Link></li>
@@ -46,24 +56,12 @@ class ListBlogComponent extends Component {
                                             </Link>
                                         </div>
                                         <div className="entry-content">
-                                            <p> {data.description}
-                                            </p>
-                                            <p>
-                                                <Link to="blog-single" onClick={() => {window.location.href="/blog-single"}} title="" className="more-link">Read More</Link>
+                                            <p style={{textAlign:'justify'}}> {data.description}
                                             </p>
                                         </div>
 							        </article>
                                 ))
                             }
-							<div className="blog-pagination">
-								<ul className="flat-pagination">
-                                    {
-                                        this.state.pagination.map (data =>(
-                                            <li key={data.id} ><Link to="#" className={data.class} title="">{data.numb}</Link></li>
-                                        ))
-                                    }
-								</ul>
-							</div>
 						</div>
 						
 					</div>        

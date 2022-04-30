@@ -10,28 +10,28 @@ class newBox extends Component {
                     srcimg: 'images/news/image-small-01.png',
                     title: 'Why your sales forecast is off',
                     description:'Sed facilisis lorem in orci bibendum ullamcorper. Mauris vitae augue elementum, ...',
-                    day: 'January 11, 2020',
+                    day: '',
                 },
                 {
                     id: 2,
                     srcimg: 'images/news/image-small-02.png',
                     title: 'Why your sales forecast is off',
                     description:'Sed facilisis lorem in orci bibendum ullamcorper. Mauris vitae augue elementum, ...',
-                    day: 'January 11, 2020',
+                    day: '',
                 },
                 {
                     id: 3,
                     srcimg: 'images/news/image-small-03.png',
                     title: '6 tips to retain your top sales talent',
                     description:'Sed facilisis lorem in orci bibendum ullamcorper. Mauris vitae augue elementum, ...',
-                    day: 'January 11, 2020',
+                    day: '',
                 },
                 {
                     id: 4,
                     srcimg: 'images/news/image-small-04.png',
                     title: 'What the martian can teach sales',
                     description:'Sed facilisis lorem in orci bibendum ullamcorper. Mauris vitae augue elementum, ...',
-                    day: '1January 11, 2020',
+                    day: '',
                 }
             ]
         }

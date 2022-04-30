@@ -16,13 +16,13 @@ class Blog extends Component {
             titleheading: [
                 {
                     id: '1',
-                    title: 'Home'
+                    title: 'Savings'
                 }
             ],
             breadcrumbs: [
                 {
                     id: 1,
-                    title: 'Home',
+                    title: 'Savings',
                     classicon: 'fa fa-angle-right',
                     aria: 'true'
                 },
@@ -46,7 +46,6 @@ class Blog extends Component {
                             <Header data={data} key={data.id}/>
                         ))
                     }
-
                     <div className="page-title">
                         <div className="container">
                             <div className="row">
@@ -73,13 +72,12 @@ class Blog extends Component {
                     <section className="main-content">
                         <div className="container">
                             <div className="row">
-                            <ListBlogComponent />
-                            <SidebarBlog />
+                                <ListBlogComponent />
+                                {/* <SidebarBlog /> */}
                             </div>
 			            </div>
                     </section>
         {/* main-content */}
-
                     <Footer />
                 </div>
             </div>

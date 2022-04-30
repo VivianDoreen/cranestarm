@@ -4,15 +4,13 @@ class TextMainFooter extends Component {
     render() {
         return (
             <div className="widget widget-text">
-                <p>Lorem ipsum dolor sit consectetur adipiscing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore 
-                        magna veniam aliqua.Ut enim ad minim veniam
+                <p>At Cranestarm, We promote financial inclusion in the
+                    country, so that even the low and unbankable persons 
+                    have access to financial services
                 </p>
                 <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate 
+                    We also support different categories of people in business
+                    including those with stationaries, researchers etc
                 </p>	
             </div>
             /* <!-- /.widget-text --> */

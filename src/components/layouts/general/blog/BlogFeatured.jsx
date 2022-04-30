@@ -15,6 +15,15 @@ class BlogFeatured extends Component {
                     month: 'APRIL'
                 },
                 {
+                    id: 3,
+                    srcimg: 'images/news/image-large-08.jpeg',
+                    classname:'post style2',
+                    title: '6 tips to retain your top sales talent',
+                    description:"Reexamine your compensation package on an annual basis, taking into account what's being offered at competing organizations. ...",
+                    day: '11',
+                    month: 'APRIL'
+                },
+                {
                     id: 2,
                     srcimg: 'images/news/image-large-01.jpeg',
                     classname:'post style2',

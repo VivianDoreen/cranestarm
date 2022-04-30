@@ -25,21 +25,6 @@ class Header extends Component {
 						</div>
                         {/* .col-md-2  */}
 						<div className="col-md-8">	
-                            <div className="flat-show-search">
-    							<div className="show-search">
-    		                        <Link to="#"><i className="fa fa-search"></i></Link>                                             
-    		                    </div>
-                                <div className="top-search">                        
-                                    <form action="#" id="searchform-all" method="get">
-                                        <div>
-                                            <input type="text" id="s" className="sss" placeholder="Search..." />
-                                            <input type="submit" value="" id="searchsubmit" />
-                                        </div>
-                                    </form>
-                                </div> 
-                                {/* <!-- /.top-search --> */}
-                            </div>
-                            	{/* <!-- /.flat-show-search -->*/}
 							<div className="nav-wrap">
                                 <div className="btn-menu">
                                     <span></span>

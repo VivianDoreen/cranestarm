@@ -37,7 +37,7 @@ class Blog extends Component {
                             <BlogFeatured />
 
                             
-                            <BlogSlidebar />
+                            {/* <BlogSlidebar /> */}
 
                         </div>
                         {/* <!-- /.row --> */}
