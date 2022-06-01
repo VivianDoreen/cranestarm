@@ -15,9 +15,9 @@ class MainGrid extends Component {
 			boxgrid: [
 				{
 					id: '1',
-					srcimg: 'images/about/t01.jpg',
-					subtitle: 'Founder &amp; CEO',
-					title: 'STEVEN MONROE',
+					srcimg: 'images/about/team01.jpeg',
+					subtitle: 'CEO',
+					title: 'RICHARD',
 					listsocial: [
 						{
 							id: '1',
@@ -40,22 +40,17 @@ class MainGrid extends Component {
 				},
 				{
 					id: '2',
-					srcimg: 'images/about/t02.jpg',
-					subtitle: 'Founder &amp; CEO',
-					title: 'STEVEN MONROE'
+					srcimg: 'images/about/team02.jpg',
+					subtitle: 'Cashier',
+					title: 'nansubuga Rebecca'
 				},
 				{
 					id: '3',
-					srcimg: 'images/about/t03.jpg',
-					subtitle: 'Finance & Commerce',
-					title: 'MICHAEL KING'
+					srcimg: 'images/about/team03.jpg',
+					subtitle: 'Loans officer',
+					title: 'Derick'
 				},
-				{
-					id: '4',
-					srcimg: 'images/about/t04.jpg',
-					subtitle: 'Company Director',
-					title: 'ROMEO ALVAREZ'
-				}
+				
 			],
 			
         }
@@ -69,8 +64,7 @@ class MainGrid extends Component {
 								{
 									this.state.titlegird.map(data =>(
 										<div className="title-section center s1" key={data.id} >
-											<h2>{data.title}</h2>
-											<p className="sub-title-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore magna aliqua.</p>
+											<p className="sub-title-section">Meet the team that are here to help you get a loan and maximize your savings</p>
 										</div>		
 									))
 								}
@@ -90,16 +84,9 @@ class MainGrid extends Component {
 											<div className="team-subtitle">{data.subtitle}</div>
 											<div className="team-name">{data.title}</div>			
 											<div className="team-desc"></div>
-											<div className="social-links">
-												<Link to="#" data-title="Facebook" className="facebook"><i className="fa fa-facebook"></i></Link> 
-												<Link to="#" data-title="LinkedIn" className="linkedin"><i className="fa fa-linkedin"></i></Link> 
-												<Link to="#" data-title="Google Plus" className="google-plus"><i className="fa fa-google-plus"></i></Link>
-											</div>
 										</div>
 									</div> 
 								</div> 
-
-						
 							))
 						}
 					</div>				

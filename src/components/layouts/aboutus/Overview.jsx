@@ -21,7 +21,6 @@ class Overview extends Component {
 			<section className="flat-row pd-about-post">
                         <div className="container">
                             <div className="row flat-tabs" data-effect ="fadeIn">
-								<SlideBar />
                                 <MainOverView />
                             </div>				
                         </div>

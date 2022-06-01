@@ -69,7 +69,7 @@ class Slider extends Component {
                                  {/* With over 10 years of experience helping businesses to find<br />comprehensive solutions  */}
                             </div>
 
-                            <Link to="#" target="_self" className="tp-caption flat-button-slider bg-blue" 
+                            <Link to="/company" target='_blank' className="tp-caption flat-button-slider bg-blue" 
 
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                          
@@ -81,7 +81,7 @@ class Slider extends Component {
                             </Link>
                             {/* <!-- END LAYER LINK --> */}
 
-                            <Link to="#" target="_self" className="tp-caption flat-button-slider bg-transparent" 
+                            {/* <Link to="#" target="_self" className="tp-caption flat-button-slider bg-transparent" 
 
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                          
@@ -89,8 +89,8 @@ class Slider extends Component {
                             data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"  
                             data-fontsize="['14',14','14','14']"
                             data-width="['auto']"
-                            data-height="['auto']">Get in Touch
-                            </Link>
+                            data-height="['auto']">
+                            </Link> */}
                             {/* <!-- END LAYER LINK --> */}
                         </li>
 
@@ -151,7 +151,7 @@ class Slider extends Component {
                                 >With over 10 years of experience helping businesses to find<br />comprehensive solutions 
                             </div>
 
-                            <Link to="#" target="_self" className="tp-caption flat-button-slider bg-blue" 
+                            <Link to="/company" target='_blank' className="tp-caption flat-button-slider bg-blue" 
 
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                          
@@ -163,7 +163,7 @@ class Slider extends Component {
                             </Link>
                             {/* <!-- END LAYER LINK --> */}
 
-                            <Link to="/contact-v1" target="_blank" className="tp-caption flat-button-slider bg-transparent" 
+                            {/* <Link to="/contact-v1" target="_blank" className="tp-caption flat-button-slider bg-transparent" 
 
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                          
@@ -172,7 +172,7 @@ class Slider extends Component {
                             data-fontsize="['14',14','14','14']"
                             data-width="['auto']"
                             data-height="['auto']">Get in Touch
-                            </Link>
+                            </Link> */}
                             {/* <!-- END LAYER LINK --> */}
                         </li>
                         </ul>

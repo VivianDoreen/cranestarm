@@ -73,7 +73,7 @@
 }
 
 .imagebox.style1 .imagebox-title h3:after {
-    content: "\f054";
+    /* content: "\f054"; */
     font-family: "FontAwesome";
     position: absolute;
     top: 48%;

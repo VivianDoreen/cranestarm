@@ -23,21 +23,27 @@ class BoxView  extends Component {
             blogtimeline: [
                 {
                     id: '1',
-                    year: '2012',
+                    year: 'BACKGROUND',
                     title: 'Start with a small service',
-                    description: 'This was the time when we started our company. We had no idea how far we would go, we weren’t even sure that we would be able to survive for a few years. What drove us to start the company was the understanding that we could provide a service no one else was providing.',
+                    description: 'The idea of building the company started in March, 2019 when I was operating a mobile money business.  I sold the idea of Micro lending to a friend who bought it. On 15th April, 2019, we started the lending business which was registered in the name of MUYINDA RICHARD FINANCIAL SERVICES, though later on, we abbreviated it as “MR. FINANCIAL SERVICES”. In September 2021, the company name was changed from The MR FINANCIAL SERVICES to CRANESTARM CO LTD. Currently we have served 200+ happy customers in areas of Kampala, Wakiso and Mukono. The company’s major focus under the financial literacy is to empower the income earners through financial awareness. The company targets the young generation in schools starting from primary level to tertiary/university since we realize that in the education system, the students are not taught about financial matters and how they can save the little they have to accumulate the huge they want to have. ',
                 },
                 {
                     id: '2',
-                    year: '2013',
-                    title: 'Website Design, Seo Makerting Online',
-                    description: 'This was the time when we started our company. We had no idea how far we would go, we weren’t even sure that we would be able to survive for a few years. What drove us to start the company was the understanding that we could provide a service no one else was providing.',
+                    year: 'VISION STATEMENT',
+                    title: 'Start with a small service',
+                    description: 'To be the most trusted, competent and reliable company iin the country and the whole world',
                 },
                 {
                     id: '3',
-                    year: '2014',
+                    year: 'MISSION STATEMENT',
+                    title: 'Website Design, Seo Makerting Online',
+                    description: 'To promote financial inclusion in the country so that even the low income earners/unbankable persons have access to financial services',
+                },
+                {
+                    id: '4',
+                    year: 'VALUES',
                     title: 'Developer WordPress Themeforest.net',
-                    description: 'This was the time when we started our company. We had no idea how far we would go, we weren’t even sure that we would be able to survive for a few years. What drove us to start the company was the understanding that we could provide a service no one else was providing.',
+                    description: 'Honesty, Accountability, Trustworthy, Team work, Fairness, Innovation and creativity, Inclusiveness, Environment, Corporate social responsibilityProfessionalism',
                 }
             ]
             
@@ -46,38 +52,13 @@ class BoxView  extends Component {
     render() {
         return (
             <div>
-                <div className="flexslider s2">
-                    <div className="flat-slides">                            
-                        <ul className="slides">
-                            {
-                                this.state.imgslide.map(data =>(
-                                    <li key={data.id}>   
-                                        <img src={data.srcimg} alt="img" />
-                                    </li>
-                                ))
-                            }
-                            
-                        </ul> 
-                    </div>
-                </div> 
-                    {
-                        this.state.content.map(data =>(
-                            <div className="box-content" key={data.id} >
-                                <div className="title">{data.title}</div>
-                                <p>{data.description}</p>
-                                <div className="dividers dividers-bc-v4"></div>
-                            </div>
-                            ))
-                    }
-                
                     {
                         this.state.blogtimeline.map(data =>(
                             <div className="flat-text-block-timeline" key={data.id} >
                                 <div className="year">{data.year}</div>
                                 <div className="flat-timeline-content">
                                 <div className="box-content">
-                                    <div className="title">{data.title}</div>
-                                    <p>{data.description}</p>
+                                    <p style={{textAlign:'justify'}}>{data.description}</p>
                                     </div>
                                 </div>
                             </div>

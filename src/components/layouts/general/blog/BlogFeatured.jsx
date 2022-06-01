@@ -10,7 +10,7 @@ class BlogFeatured extends Component {
                     srcimg: 'images/news/image-large-04.jpeg',
                     classname:'post style2',
                     title: 'Why Do I Need To Use Financial ?',
-                    description: 'The primary purpose of financial information is to allow managers to make informed decisions about their ...',
+                    description: 'The primary purpose of financial information is to allow managers to make informed financial decisions regarding the allocation of resources.',
                     day: '11',
                     month: 'APRIL'
                 },
@@ -18,8 +18,8 @@ class BlogFeatured extends Component {
                     id: 3,
                     srcimg: 'images/news/image-large-08.jpeg',
                     classname:'post style2',
-                    title: '6 tips to retain your top sales talent',
-                    description:"Reexamine your compensation package on an annual basis, taking into account what's being offered at competing organizations. ...",
+                    title: 'Tip to retain your top sales talent',
+                    description:"Re-examine your compensation package on an annual basis, taking into account what's being offered at competing organizations.",
                     day: '11',
                     month: 'APRIL'
                 },
@@ -28,7 +28,7 @@ class BlogFeatured extends Component {
                     srcimg: 'images/news/image-large-01.jpeg',
                     classname:'post style2',
                     title: 'Why your sales forecast is off',
-                    description:'Sounds like a joke, but the truth is sales forecasts are often made up because reps, and sales ...',
+                    description:"Your CRM is more riddled with holes than a wool sweater in a moth infestation. Some of your data is missing, or it’s outdated, or it’s simply inaccurate.",
                     day: '11',
                     month: 'APRIL'
                 },

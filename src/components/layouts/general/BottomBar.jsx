@@ -12,7 +12,6 @@ class BottomBar extends Component {
                                 </div>
                                 <ul className="menu-footer">
                                     <li><Link to="/" onClick={() => {window.location.href="/"}} title="">Home</Link></li>
-                                    <li><Link to="/blog" onClick={() => {window.location.href="/blog"}} title="">My Blog</Link></li>
                                 </ul>
                                 {/* <!-- /.menu-footer --> */}
                             </div>

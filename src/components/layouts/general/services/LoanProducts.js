@@ -34,7 +34,7 @@ class LoanProducts extends Component {
         },
         {
           id: 3,
-          title: "Savings",
+          title: "Loan Products",
           classicon: "",
           aria: "",
         },

@@ -44,12 +44,11 @@ class EventBoxs extends Component {
                                     {/* <!-- /.imagebox-image --> */}
                                     
                                     <div className="imagebox-title">
-                                        <h3><Link to={data.link} onClick={() => {window.location.href=data.link}} title="">{data.title}</Link></h3>
+                                        <h3><Link title="">{data.title}</Link></h3>
                                     </div>
                                     {/* <!-- /.iamgebox-title --> */}
                                     <div className="imagebox-content">
                                         <div className="imagebox-desc">{data.description}</div>
- 
                                     </div>
                                     {/* <!-- /.imagebox-content --> */}
                                 </div>

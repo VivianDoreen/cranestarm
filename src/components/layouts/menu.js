@@ -9,7 +9,21 @@ const menus = [
         id: 2,
         name: 'About',
         linkmenu: '/about-v3',
-        namesub: [],
+        namesub: [
+            {
+                id: 1,
+                sub: 'Our Team',
+                links: '/team',
+                submenu: undefined
+            },
+            {
+                id: 1,
+                sub: 'Company',
+                links: '/company',
+                submenu: undefined
+            }
+
+        ],
     },
     {
         id: 3,
@@ -28,12 +42,6 @@ const menus = [
                 links: '/services-savings',
                 submenu: undefined
             },
-            {
-                id: 3,
-                sub: 'Other Services',
-                links: '/services-others',
-                submenu: undefined
-            }
         ],
     },
     {

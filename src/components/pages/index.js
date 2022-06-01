@@ -17,6 +17,7 @@ import Portfolio3 from './Portfolio3'
 import Contact01 from './Contact01'
 import Contact02 from './Contact02'
 import BlogSingle from './BlogSingle'
+import Company from '../layouts/aboutus/Company'
 import LoanProducts from '../layouts/general/services/LoanProducts'
 
 const routes = [
@@ -26,8 +27,8 @@ const routes = [
     { path: '/index-v4', component: Home04},
     { path: '/index-layout2', component: Home05},
     { path: '/index-v5', component: Home06},
-    { path: '/about-v1', component: AboutUs},
-    { path: '/about-v2', component: TeamGrid},
+    { path: '/company', component: OverView},
+    { path: '/team', component: TeamGrid},
     { path: '/about-v3', component: OverView},
     { path: '/services-others', component: Services},
     { path: '/services-loans', component: LoanProducts},
