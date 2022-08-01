@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Header, TopBar, Footer, Loader } from "../layouts/general";
 import { Link } from "react-router-dom";
+import axios from 'axios'
 
 class Contact01 extends Component {
   state = {
@@ -40,7 +41,7 @@ class Contact01 extends Component {
       {
         id: "2",
         title: "Phone number",
-        info: "Call us: +256 39 3224668",
+        info: "Call us: +256 200914551 or 0393224668",
       },
       {
         id: "3",
@@ -70,40 +71,45 @@ class Contact01 extends Component {
       message: this.state.message,
     };
 
-    console.log(formDetails);
+  //   const smtpjs = window.Email;
+
+  //   smtpjs.send({
+  //     Host : "smtp.elasticemail.com",
+  //     Username : "nabulovivian2014@gmail.com",
+  //     Password : "4B24A2FF6EB82F5D9019A367B0FE2A1CDDCB",
+  //     To : 'nabulovivian2014@gmail.com',
+  //     From : this.state.email,
+  //     Subject : this.state.subject,
+  //     Body : this.state.message
+  // }).then(
+  //   message => alert(message)
+  // );
+
+    const API_PATH = 'http://localhost:8888/demo-react/api/demo.php';
+
+    axios({
+        method: 'post',
+        url: API_PATH,
+        headers: {
+            'content-type': 'application/json',
+            "Content-type": "application/json; charset=UTF-8"
+        },
+        mode:'no-cors',
+        data: this.state
+    })
+    .then(result => {
+        console.log(result.data)
+        this.setState({
+            dataSent: result.data.sent,
+        })
+        console.log(this.state)
+    })
+    .catch(error => this.setState({
+        error: error.message
+    }));
+  
   };
 
-  getDetails = () => {
-    fetch(`http://localhost:8888/demo-react/api/demo.php`, {
-      mode: "no-cors",
-      method: "POST",
-    //   headers: {
-    //     Accept: "application/json",
-    //     "Content-Type": "application/json",
-    //   },
-      body: JSON.stringify({ content: "Test2" }),
-    })
-      .then((res) => {return res.json()})
-      .then((response) => {
-        console.log(response);
-      });
-    // fetch('http://localhost:8888/demo-react/api/demo.php', {
-    //     mode: 'no-cors',
-    //     method:'POST',
-    //     headers:{
-    //         Accept:'application/json',
-    //         'Content-Type': 'application/json'
-    //     },
-    //     body:JSON.stringify({
-    //         content:'Test1'
-    //     })
-    // }).then(res=>res.json())
-    // .then(response =>{
-    //     console.log('Response');
-    //     console.log(response,'Actual response');
-    // })
-    // .catch(error =>console.log(error))
-  };
   render() {
     return (
       <div className="bg-body">

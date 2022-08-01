@@ -26,7 +26,7 @@ class TopBar extends Component {
                             <div className="flat-address">
                                 <p className="icon"><i className="ion-android-pin"></i></p>
                                 <p className="text">
-                                    Call us: +256 702129777 or 0774 262237<br />
+                                    Call us: +256 200914551 or 0393224668<br />
                                     <span>P.O. Box 84 Collins Street West Victoria 8007 Australia</span>
                                 </p>
                             </div>

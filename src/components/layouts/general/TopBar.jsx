@@ -9,8 +9,8 @@ class TopBar extends Component {
                         <div className="col-md-12">
                             <div className="flat-questions">
                             <ul className="flat-infomation">
-                                <li className="phone">Call us: <Link to="#" title="phone">+256 702129777 or 0774 262237</Link></li>
-                                <li className="email">Email: cranestarm.co.ug@gmail.com</li>
+                                <li className="phone">Call us: <Link to="#" title="phone">+256 200914551 or 0393224668</Link></li>
+                                <li className="email">Email: cranestarm.co.ug@gmail.com | twitter & instagram handle : @cranestarm</li>
                             </ul>
                             </div>
                             <div className="clearfix"></div>
